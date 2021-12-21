@@ -1,0 +1,22 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+guardable                                                                         0x0000       1
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+pasado_i                                                                          R2.0      1bit
+actual_i                                                                          R2.1      1bit
+pasado_g                                                                          R2.2      1bit
+actual_g                                                                          R2.3      1bit
+index                                                                             R5           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0004B     98

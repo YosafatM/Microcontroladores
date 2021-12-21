@@ -1,0 +1,43 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+player_1                                                                          0x00E0       2
+player_2                                                                          0x00E2       2
+ball                                                                              0x00E4       8
+_seed (stdlib.lib)                                                                0x00EC       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+player_1_score                                                                    R5           1
+player_2_score                                                                    R4           1
+pause                                                                             R2.0      1bit
+cu_left_1                                                                         R2.1      1bit
+la_left_1                                                                         R2.2      1bit
+cu_left_2                                                                         R2.3      1bit
+la_left_2                                                                         R2.4      1bit
+cu_right_1                                                                        R2.5      1bit
+la_right_1                                                                        R2.6      1bit
+cu_right_2                                                                        R2.7      1bit
+la_right_2                                                                        R3.0      1bit
+cu_pause                                                                          R3.1      1bit
+la_pause                                                                          R3.2      1bit
+cu_reset                                                                          R3.3      1bit
+la_reset                                                                          R3.4      1bit
+i                                                                                 R6,R7        2
+j                                                                                 R8,R9        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00058     75
+update_ball                                                                       0x000A3     94
+paint_scoreboard                                                                  0x00101      9
+check_pause_reset                                                                 0x0010A     34
+check_changes                                                                     0x0012C     85
+paint                                                                             0x00181     54
+rand                                                                              0x001B7     28

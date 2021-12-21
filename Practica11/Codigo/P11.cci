@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:53499420
+NODE:I LEVEL:0 LINE:23 "C:\cvavreval\inc\mega8535.h"
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\delay.h"
+NODE:M LEVEL:0 LINE:25 "btn_incrementa"
+NODE:M LEVEL:0 LINE:26 "btn_guarda"
+NODE:V LEVEL:0 LINE:29 "guardable -> EEPROM:????"
+NODE:V LEVEL:0 LINE:30 "index -> R5"
+NODE:C LEVEL:0 LINE:31 "tabla7segmentos -> FLASH"
+NODE:F LEVEL:0 LINE:33 "main(void)"

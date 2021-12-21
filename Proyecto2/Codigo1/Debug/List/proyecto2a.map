@@ -1,0 +1,34 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+inst                                                                              0x00E0      10
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+read_index                                                                        R5           1
+write_index                                                                       R4           1
+a_izq                                                                             R2.0      1bit
+a_der                                                                             R2.1      1bit
+a_arr                                                                             R2.2      1bit
+a_aba                                                                             R2.3      1bit
+a_clr                                                                             R2.4      1bit
+a_pau                                                                             R2.5      1bit
+a_go                                                                              R2.6      1bit
+p_izq                                                                             R2.7      1bit
+p_der                                                                             R3.0      1bit
+p_arr                                                                             R3.1      1bit
+p_aba                                                                             R3.2      1bit
+p_clr                                                                             R3.3      1bit
+p_pau                                                                             R3.4      1bit
+p_go                                                                              R3.5      1bit
+mode                                                                              R3.6      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0004A    257
